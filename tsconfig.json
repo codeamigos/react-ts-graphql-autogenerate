@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./build/assets",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "jsx": "react",
+    "strict": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "types": ["webpack-env", "node"],
+    "lib": ["es2017", "dom", "esnext.asynciterable"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["build", "node_modules"]
+}

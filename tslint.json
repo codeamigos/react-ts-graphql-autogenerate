@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "arrow-parens": false,
+    "interface-name": [true, "never-prefix"],
+    "no-console": [true, "log", "warn"],
+    "no-empty": false,
+    "no-switch-case-fall-through": true,
+    "no-object-literal-type-assertion": false,
+    "no-var-requires": false,
+    "no-unnecessary-initializer": false,
+    "member-access": [false],
+    "member-ordering": [false],
+    "object-literal-key-quotes": [false],
+    "object-literal-shorthand": false,
+    "object-literal-sort-keys": false,
+    "one-line": [false],
+    "one-variable-per-declaration": [false],
+    "ordered-imports": [false],
+    "switch-default": true,
+  }
+}
